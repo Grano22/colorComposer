@@ -1,0 +1,12 @@
+{
+    "name":"standard CYMYK",
+    "description":"Colors of CMYK color system",
+    "categories":[
+        {"caption":"Podstawowe barwy", "list":[
+            {"name":"cyan", "content":"#0093D3"},
+            {"name":"meganta", "content":"#CC016B"},
+            {"name":"yellow", "content":"#FFF10D"},
+            {"name":"black", "content":"#000"}
+        ]}
+    ]
+}

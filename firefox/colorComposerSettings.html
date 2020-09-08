@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="__MSG_currentLang__">
+<head>
+<!-- Charset -->
+<meta charset="utf-8">
+<!-- Title -->
+<title>__MSG_settingsPageTitle__</title>
+<!-- Styles -->
+<!--<link id="light" rel="stylesheet" type="text/css" href="Themes/settingsLight.css">-->
+<style type="text/css">
+#colorComposer-settingsContainer { width: 100%; }
+#colorComposer-settingsContainer .colorComposer-columnList { margin: 0; padding: 0; height: 100%; min-height: 300px; width: 220px; font-size: 0; display: inline-block; vertical-align: middle; }
+#colorComposer-settingsContainer .colorComposer-settingsContents {
+    display: inline-block;
+    width: calc(100% - 260px);
+    padding: 2px 10px;
+    vertical-align: middle;
+}
+#colorComposer-settingsContainer #colorComposer-settingsSaveCat {
+    text-align: center;
+    text-align: -moz-center;
+    margin: 3px auto;
+}
+.colorComposer-columnList .colorComposer-columnItem {
+    display: list-item;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+}
+
+</style>
+<!-- Theme -->
+<script type="application/javascript" src="Themes/loadTheme.js"></script>
+<!-- Scripts -->
+<script type="module" src="./settings.js"></script>
+<!-- Meta -->
+</head>
+<body>
+<div id="colorComposer-settingsContainer">
+<ul class="colorComposer-columnList">
+<li id="summary" class="colorComposer-columnItem"> Podsumowanie</li>
+<li id="composition" class="colorComposer-columnItem"> Kompozycja</li>
+<li id="aboutAddon" class="colorComposer-columnItem"> Informacje o wtyczce</li>
+</ul>
+<div class="colorComposer-settingsContents">
+<form id="colorComposer-settingsForm" autocomplete="off" method="POST"></form>
+</div>
+<div id="colorCompoer-settingsFooter"></div>
+</div>
+</body>
+</html>

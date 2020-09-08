@@ -1,0 +1,13 @@
+/* Styles for ColorConverter */
+
+#gradientFabric-customAngle {
+    display: none;
+}
+
+#gradientFabric-customAngle + strong {
+    display: inline;
+}
+
+#gradientFabric-customAngle:not([style]) + strong, #gradientFabric-customAngle:not([style*="display: none"]) + strong, #gradientFabric-customAngle:not([style=""]) + strong {
+    display: none;
+}

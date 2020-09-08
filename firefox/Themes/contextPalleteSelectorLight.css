@@ -1,0 +1,70 @@
+div#palleteSelector {
+    position: absolute;
+    background: #e8e8e8;
+    border: 2px solid slategray;
+    box-shadow: 0 0 4px 2px slategray;
+    width: 200px;
+}
+
+div#palleteSelector #searchFieldPalletes {
+    width: 100%;
+    padding: 2px;
+    border: 2px solid #4d78bf;
+    background: #c2c2c2;
+}
+
+div#palleteSelector #userPalletesList {
+    overflow-y: scroll;
+    width: 100%;
+    min-height: 40px;
+}
+
+div#palleteSelector #userPalletesList .palleteSelectionItem, div#palleteSelector #userPalletesList #palleteSelectorItemInformation {
+    width: calc(100% - 10px);
+    background: #b6b4b4;
+    padding: 5px;
+    margin: 5px auto;
+    border: 2px solid #8d8d8d;
+}
+
+div#palleteSelector #userPalletesList .palleteSelectionItem.selectedItem {
+    background: #919191;
+    color: #707070;
+}
+
+div#palleteSelector #userPalletesList #palleteSelectorItemInformation[data-type=error] { }
+
+div#palleteSelector #userPalletesList div.in {
+    margin: 2px 0;
+}
+
+div#palleteSelector #userPalletesList .palleteSelectionItem h3, div#palleteSelector #userPalletesList #palleteSelectorItemInformation h3 {
+    font-style: oblique;
+    margin: 2px;
+}
+
+div#palleteSelector input#nameFieldNewPallete {
+    width: calc(100% - 4px);
+    padding: 2px;
+    border: 0;
+}
+
+div#palleteSelector input#confirmSelectorBtn, div#palleteSelector input#cancelSelectorBtn {
+    width: 50%;
+    display: inline-block;
+    background: #bdbdbd;
+    text-shadow: none;
+    color: #7d7d7d;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0;
+    padding: 5px;
+    margin: 0;
+}
+
+div#palleteSelector input#confirmSelectorBtn:hover, div#palleteSelector input#cancelSelectorBtn:hover {
+    background: #d9d9d9;
+    color: #969696;
+}
+
+.colorPalleteCheck { display: none; }

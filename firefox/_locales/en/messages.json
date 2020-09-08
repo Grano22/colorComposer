@@ -1,0 +1,206 @@
+{
+	"extDes":{
+		"message": "Color Composer is a tool for web designer, whos needs a fat access to color design.",
+		"description": "About Extension"
+	},
+	"menuDefaultCaption": {
+		"message": "Fast Actions",
+		"description": "Main Menu Category"
+	},
+	"menuDefaultLi1":{
+		"message": "Capture Screen",
+		"description": "Main Menu List Item 1"
+	},
+	"menuDefaultLi2":{
+		"message": "My Color Palletes",
+		"description": "Main Menu List Item 2"
+	},
+	"menuDefaultLi3":{
+		"message": "My gradients Palletes",
+		"description": "Main Menu List Item 3"
+	},
+	"menuDefaultLi4":{
+		"message": "Check for documentation",
+		"description": "Main Menu List Item 4"
+	},
+	"menuCat0":{
+		"message": "Text Formater",
+		"description": "Category 0"
+	},
+	"menuCat0SmallDes":{
+		"message": "Format your text with beatifull looking colors and effects",
+		"description": "Category 0 Small Description"
+	},
+	"menuCat1":{
+		"message": "Eye Dropper",
+		"description": "Category 1"
+	},
+	"menuCat1SmallDes":{
+		"message": "Format your text with beatifull looking colors and effects",
+		"description": "Category 1 Small Description"
+	},
+	"menuCat2":{
+		"message": "Gradient Fabric",
+		"description": "Category 2"
+	},
+	"menuCat2SmallDes":{
+		"message": "Mix colors into gradient compositions for svg, canvas and css",
+		"description": "Category 2 Small Description"
+	},
+	"wordLinearGradient":{
+		"message": "Linear Gradient",
+		"description": "Word linear gradient translation"
+	},
+	"wordRadialGradient":{
+		"message": "Radial Gradient",
+		"description": "Word radial gradient translation"
+	},
+	"gradientFabricCategory1":{
+		"message": "Partial Gradient Colors",
+		"description": "Gradient Fabric Title of section 1"
+	},
+	"gradientFabricCategory2":{
+		"message": "Gradient Mixer",
+		"description": "Gradient Fabric Title of section 2"
+	},
+	"gradientFabricCategory3":{
+		"message": "Gradient Preview",
+		"description": "Gradient Fabric Title of section 3"
+	},
+	"gradientFabricCategory4":{
+		"message": "Tools",
+		"description": "Gradient Fabric Title of section 4"
+	},
+	"gradientFabricLegend1":{
+		"message": "Gradient Direction",
+		"description": "Tite for gradient fabric legend 1"
+	},
+	"gradientFabricBtn1":{
+		"message": "Reverse Gradient Colors",
+		"description": "Button 1 text in gradient tools"
+	},
+	"gradientFabricBtn2":{
+		"message": "Convert Gradient Group",
+		"description": "Button 2 text in gradient tools"
+	},
+	"gradientFabricBtn3":{
+		"message": "Add to my gradient groups",
+		"description": "Button 3 text in gradient tools"
+	},
+	"randGradientBtn":{
+		"message": "Randomize gradient",
+		"description": "Button ranGradient text in gradient tools"
+	},
+	"gradientFabricBtn4":{
+		"message": "Export as HTML document",
+		"description": "Button 4 text in gradient tools"
+	},
+	"gradientFabricBtn5":{
+		"message": "Generate result in new window",
+		"description": "Button 5 text in gradient tools"
+	},
+	"gradientfabricbtn6":{
+		"message": "Export as JPG image",
+		"description": "Button 5 text in gradient tools"
+	},
+	"menuCat3":{
+		"message": "Color Picker",
+		"description": "Category 3"
+	},
+	"menuCat3SmallDes":{
+		"message": "Find your color pattern which you want",
+		"description": "Category 3 Small Description"
+	},
+	"AddColorToPallete":{
+		"message": "Add Color To Pallete",
+		"description": "Word Translation"
+	},
+	"AddUserPallete":{
+		"message": "Add new user pallete",
+		"description": "Word Translation"
+	},
+	"ImportJSONPallete":{
+		"message": "Import JSON Pallete",
+		"description": "Word Translation"
+	},
+	"RGB_Chooser_Title_Range":{
+		"message": "RGB selection of color in main parties",
+		"description": "RGB Chooser Title in Category 3"
+	},
+	"RGB_Standard_Pallete_Title":{
+		"message": "RGB Standard Pallete",
+		"description": "RGB Title for first palletes section"
+	},
+	"RGB_Options_Title":{
+		"message": "Options",
+		"description": "RGB Options"
+	},
+	"menuCat4":{
+		"message": "Color Converter",
+		"description": "Category 4"
+	},
+	"menuCat4SmallDes":{
+		"message": "Convert color format to one of supported",
+		"description": "Category 4 Small Description"
+	},
+	"menuCat4Subtitle": {
+		"message": "Enter your Colour/s",
+		"description": "Category 4 Subtitle"
+	},
+	"menuCat4InputPlaceholder": {
+		"message": "Type your colours",
+		"description": "Category 4 Input Placeholder"
+	},
+	"menuCat4LabelInfo": {
+		"message": "If you want to convert more than one colour you can use semicons",
+		"description": "Category 4 Label Info"
+	},
+	"menuCat4ResultAreaDefault": {
+		"message": "Type your colours and press enter to see results",
+		"description": "Category 4 Result Default Message"
+	},
+	"currentLang":{
+		"message": "en-EN",
+		"description": "Contains a language scrout and senamptic for html"
+	},
+	"settingsPageTitle":{
+		"message": "Color Composer Settings",
+		"description": "Title for Color Composer Page Settings"
+	},
+	"gradientFirstTitleCSS":{
+		"message": "Partial gradient colors",
+		"description": "First section of gradient CSS"
+	},
+	"CatUserPalletesLangSmallDes":{
+		"message": "Saved user color palletes",
+		"description": "Caption of color palletes menu category"
+	},
+	"CatUserGradientLangSmallDes":{
+		"message": "Saved user gradients",
+		"description": "Caption of gradients palletes menu category"
+	},
+	"PalleteSelectorNameInputPlaceholder":{
+		"message": "Enter your new color name",
+		"description": "Placeholder for new pallete name input field"
+	},
+	"PalleteSelectorSaveBtn":{
+		"message": "Save",
+		"description": "Button caption for new pallete color"
+	},
+	"PalleteSelectorCancelBtn":{
+		"message": "Cancel",
+		"description": "Button caption for new pallete color"
+	},
+	"PalleteSelectorSearchInputPlaceholder":{
+		"message": "Type your search keyword for pallete name",
+		"description": "Placeholder for new pallete color search input field"
+	},
+	"noDescriptionWord":{
+		"message": "Empty description",
+		"description": "Translation word Empty Description"
+	},
+	"settingsWord":{
+		"message": "Settings",
+		"description": "Settings word translation"
+	}
+}

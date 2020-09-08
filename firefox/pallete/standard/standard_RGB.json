@@ -1,0 +1,25 @@
+{
+	"name": "standard RGB",
+	"description":"Colors of RGB color system",
+	"categories":[
+		{"caption":"Podstawowe barwy", "list":[
+			{"name":"red", "content":"#ff0000"},
+			{"name":"green", "content":"#00ff00"},
+			{"name":"blue", "content":"#0000ff"}
+		]},
+		{"caption":"Mieszane barwy", "list":[
+			{"name":"white", "content":"#fff"},
+			{"name":"black", "content":"#000"},
+			{"name":"yellow", "content":"#ffff00"},
+			{"name":"orange", "content":"#ffa500"},
+			{"name":"brown", "content":"#a52a2a"},
+			{"name":"grey", "content":"#808080"},
+			{"name":"gray", "content":"#808080"},
+			{"name":"silver", "content":"#c0c0c0"},
+			{"name":"gold", "content":"#ffd700"},
+			{"name":"pink", "content":"#ffc0cb"},
+			{"name":"violet", "content":"#ee82ee"},
+			{"name":"purple","content":"#800080"}
+		]}
+	]
+}

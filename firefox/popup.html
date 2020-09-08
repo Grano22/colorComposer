@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="__MSG_currentLang__">
+<head>
+<meta charset="utf-8">
+<!-- Styles -->
+<style type="text/css">
+/* Basic Page HTML */
+html, body { margin: 0; overflow:hidden; }
+body { font-size: small; width: 270px; max-height: 500px; }
+h1, h2, h3, h4, h5, h6 { margin: 2px; }
+/* Scroll Bars */
+div.scrollBar, div.horizontalScrollBar, div.verticalScrollBar { height: 100%; width: 100%; max-height: inherit; }
+div.scrollBar { overflow: visible; }
+div.horizontalScrollBar { overflow-x: visible; overflow-y:hidden; }
+div.verticalScrollBar { overflow-x: hidden; overflow-y:visible; }
+/* Links */
+a.innerCategory { display: inline-block; }
+a.innerCategory img { width: 48px; height: 48px; }
+/* Containers */
+#colorComposer-container { position: relative; }
+
+div#colorComposer-category { display: grid; grid-template-columns: auto auto auto auto; width: 100%; }
+
+.filled { width: 100%; display: block; }
+
+div#colorComposer-in {
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer */
+#colorComposer-close { font-weight: 1200; }
+div#colorComposer-footer { width: 100%; background: #ddd; border-top: 3px solid #000; font-size: 0; }
+div#colorComposer-footer span.righty { float: right; }
+div#colorComposer-footer span { padding: 5px;display: inline-block; font-size: 13px; vertical-align: middle; }
+
+div.colorComposer-regularBorder { border: 2px solid #000; margin: 5px auto; width: 90%; }
+div div.colorComposer-title { width: 100%; border-bottom: 2px solid #000; font-weight: bold; }
+
+div div.colorComposer-subtitle { width: 100%; }
+
+div div.colorComposer-inBox { margin: 5px; }
+div div.colorComposer-inBox + div.colorComposer-title  { border-top: 2px solid #000; }
+
+div#colorComposer-category .colorComposer-group {
+    border-bottom: 2px solid #000;
+    padding: 5px;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    font-size: 0.93em;
+}
+
+/* Graphic and Media Output */
+figure.previewBox { margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 40px; margin-inline-end: 40px; border: 1px solid lightgray; }
+figure.previewBox:hover { box-shadow: 0 0 3px 1px #000; }
+figure.previewBox figcaption { font-size: 17px; font-weight: bold; color: #000; }
+figure.previewBox figcaption.lighty { color: #fff; }
+figure.peviewBox div.previewBox { }
+
+figure.minpreview { width: 64px; display: inline-block; margin: 2px; }
+figure.minpreview div.previewBox { width: 64px; height: 64px; }
+</style>
+<link rel="stylesheet" type="text/css" href="rangeColorChooser.css">
+<!-- Theme -->
+<script type="application/javascript" src="Themes/loadTheme.js"></script>
+<!-- Scripts -->
+<script src="intern.js" type="application/javascript"></script>
+<script src="popup.js" type="module"></script>
+</head>
+<body>
+<!-- Scrollbar -->
+<div class="verticalScrollBar">
+<div id="colorComposer-container">
+<div id="colorComposer-category">
+<div id="colorComposer-openGradientFabric" class="colorComposer-group">Gradient Fabric</div>
+<div id="colorComposer-openColorPicker" class="colorComposer-group">Color Picker</div>
+<div id="colorComposer-openConverter" class="colorComposer-group">Color Converter</div>
+</div>
+<div id="colorComposer-in"><strong>Rozszerzenie nie będzie działało poprawnie przez jedno z następujących błędów:</strong><noscript>Twoja przeglądarka ma wyłączoną obsługę skryptów JavaScript, rozszerzenie bez tego nie może działać poprawnie (Dowiedz się więcej)</noscript></div>
+<div id="colorComposer-footer">
+<span id="colorComposer-settings">Settings</span>
+<span id="colorComposer-close" class="righty">&times;</span>
+<span id="colorComposer-home" class="righty"><img src="images/home_icon.png" width="12" height="12"></span>
+</div>
+</div>
+</div>
+<!-- END Scrollbar -->
+</body>
+</html>

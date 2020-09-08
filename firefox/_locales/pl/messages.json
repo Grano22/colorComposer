@@ -1,0 +1,202 @@
+{
+	"extDes":{
+		"message": "Color Composer to narzędzie dla twórców witryn pozwalające na odpowiednie dobranie barw.",
+		"description": "O rozszerzeniu"
+	},
+	"menuDefaultCaption": {
+		"message": "Szybkie akcje",
+		"description": "Główna kategoria menu"
+	},
+	"menuDefaultLi1":{
+		"message": "Przechwytuj ekran",
+		"description": "Category 0"
+	},
+	"menuDefaultLi2":{
+		"message": "Moje palety kolorów",
+		"description": "Main Menu List Item 2"
+	},
+	"menuDefaultLi3":{
+		"message": "Moje palety gradientów",
+		"description": "Main Menu List Item 3"
+	},
+	"menuDefaultLi4":{
+		"message": "Sprawdź dokumentację",
+		"description": "Main Menu List Item 4"
+	},
+	"menuCat0":{
+		"message": "Formater tekstu",
+		"description": "Kategoria 0"
+	},
+	"menuCat0SmallDes":{
+		"message": "Formatuj tekst aby wyglądał pięknie poprzez kolory i efekty",
+		"description": "Mały opis kategorii 0"
+	},
+	"menuCat1":{
+		"message": "Próbnik koloru",
+		"description": "Kategoria 1"
+	},
+	"menuCat1SmallDes":{
+		"message": "Przechwytuj interaktywnie kolory na stronie",
+		"description": "Mały opis kategorii 1"
+	},
+	"menuCat2":{
+		"message": "Fabryka gradientów",
+		"description": "Kategoria 2"
+	},
+	"menuCat2SmallDes":{
+		"message": "Przechwytuj interaktywnie kolory na stronie",
+		"description": "Mały opis kategorii 2"
+	},
+	"wordLinearGradient":{
+		"message": "Liniowy Gradient",
+		"description": "Tłumaczenie słowa gradient liniowy"
+	},
+	"wordRadialGradient":{
+		"message": "Radial Gradient",
+		"description": "Tłumaczenie słowa gradient kołowy"
+	},
+	"gradientFabricCategory1":{
+		"message": "Kolory składowe gradientu",
+		"description": "Kategoria 1 fabryki gradientów"
+	},
+	"gradientFabricCategory2":{
+		"message": "Mikser Gradientu",
+		"description": "Kategoria 2 fabryki gradientów"
+	},
+	"gradientFabricCategory3":{
+		"message": "Podgląd gradientu",
+		"description": "Kategoria 3 fabryki gradientów"
+	},
+	"gradientFabricCategory4":{
+		"message": "Narzędzia",
+		"description": "Kategoria 4 fabryki gradientów"
+	},
+	"gradientFabricLegend1":{
+		"message": "Kierunek gradientu",
+		"description": "Tytuł legendy listy wyboru dla kierunku gradientu"
+	},
+	"gradientFabricBtn1":{
+		"message": "Odwróć kolory gradientu",
+		"description": "Przycisk 1 w narzędziach gradientu"
+	},
+	"gradientFabricBtn2":{
+		"message": "Konwertuj grupę kolorów",
+		"description": "Przycisk 2 w narzędziach gradientu"
+	},
+	"gradientFabricBtn3":{
+		"message": "Dodaj do moich grup gradientów",
+		"description": "Przycisk 3 w narzędziach gradientu"
+	},
+	"randGradientBtn":{
+		"message": "Wylosuj gradient",
+		"description": "Przycisk Wylosuj gradient w narzędziach gradientu"
+	},
+	"gradientFabricBtn4":{
+		"message": "Eksportuj jako rezultat w pliku HTML",
+		"description": "Przycisk 4 w narzędziach gradientu"
+	},
+	"gradientFabricBtn5":{
+		"message": "Generuj rezultat w nowym oknie",
+		"description": "Przycisk 5 w narzędziach gradientu"
+	},
+	"gradientfabricbtn6":{
+		"message": "Eksportuj jako obraz jpg",
+		"description": "Przycisk 6 w narzędziach gradientu"
+	},
+	"menuCat3":{
+		"message": "Wybór koloru",
+		"description": "Kategoria 3"
+	},
+	"menuCat3SmallDes":{
+		"message": "Znajdź kolor odpowiadający twoim oczekiwaniom",
+		"description": "Mały opis kategorii 3"
+	},
+	"AddColorToPallete":{
+		"message": "Dodaj kolor do palety",
+		"description": "Word Translation"
+	},
+	"AddUserPallete":{
+		"message": "Dodaj nową paletę kolorów",
+		"description": "Word Translation"
+	},
+	"ImportJSONPallete":{
+		"message": "Importuj JSON",
+		"description": "Word Translation"
+	},
+	"RGB_Chooser_Title_Range":{
+		"message": "RGB wybieranie koloru według głównych składowych",
+		"description": "RGB wybieranie koloru - tytuł sekcji w kategorii 3"
+	},
+	"RGB_Standard_Pallete_Title":{
+		"message": "Standardowa paleta RGB",
+		"description": "RGB Title for first palletes section"
+	},
+	"RGB_Options_Title":{
+		"message": "Opcje",
+		"description": "Opcje dla sekcji RGB"
+	},
+	"menuCat4":{
+		"message": "Konwerter kolorów",
+		"description": "Kategoria 4"
+	},
+	"menuCat4SmallDes":{
+		"message": "Konwertuj formaty kolorów do innych wspieranych",
+		"description": "Mały opis kategorii 4"
+	},
+	"menuCat4Subtitle": {
+		"message": "Wpisz swój/oje kolor/y",
+		"description": "Kategoria 4 podtytuł"
+	},
+	"menuCat4InputPlaceholder": {
+		"message": "Podaj swoje kolory",
+		"description": "Kategoria 4 treść opisu tła pola tekstowego"
+	},
+	"menuCat4LabelInfo": {
+		"message": "Jeśli zamierzasz przekonwertować kilka kolorów użyj średników",
+		"description": "Kategoria 4 informacja do pola tekstowego"
+	},
+	"menuCat4ResultAreaDefault": {
+		"message": "Wskaż kolor/y aby zobaczyć skonwertowane wyniki",
+		"description": "Kategoria 4 domyślna informacja o rezultacie konwertowania"
+	},
+	"currentLang":{
+		"message": "pl-PL",
+		"description": "Oznacza skróconą nazwę języka użytkownika"
+	},
+	"settingsPageTitle":{
+		"message": "Ustawienia Color Composer",
+		"description": "Tytuł dla strony ustawień rozszerzenia Color Composer"
+	},
+	"CatUserPalletesLangSmallDes":{
+		"message": "Zapisane palety kolorów użytkownika",
+		"description": "Nagłówek menu palet kolorów"
+	},
+	"CatUserGradientLangSmallDes":{
+		"message": "Zapisane gradienty użytkownika",
+		"description": "Nagłówek menu palet gradientów"
+	},
+	"PalleteSelectorNameInputPlaceholder":{
+		"message": "Wpisz nazwę koloru",
+		"description": "Podpis dla pola nazwy nowego koloru"
+	},
+	"PalleteSelectorSaveBtn":{
+		"message": "Zapisz",
+		"description": "Tekst przycisku dla zapisania nowego koloru do palety"
+	},
+	"PalleteSelectorCancelBtn":{
+		"message": "Anuluj",
+		"description": "Button caption for new pallete color"
+	},
+	"PalleteSelectorSearchInputPlaceholder":{
+		"message": "Wpisz słowo kluczowe aby wyszukać nazwę palety",
+		"description": "Placeholder for new pallete color search input field"
+	},
+	"noDescriptionWord":{
+		"message": "Opis pusty",
+		"description": "Tłumaczenie słowa Opis pusty"
+	},
+	"settingsWord":{
+		"message": "Ustawienia",
+		"description": "Tłumaczenie słowa Ustawieia"
+	}
+}

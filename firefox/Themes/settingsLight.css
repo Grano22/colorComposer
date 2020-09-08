@@ -1,0 +1,71 @@
+html, body { margin:0; background-color: #EEE; color: #333; }
+
+#colorComposer-settingsContainer .colorComposer-columnList {
+    background: #CCC;
+}
+
+#colorComposer-settingsContainer #colorComposer-settingsSaveCat {
+
+}
+
+.colorComposer-columnList .colorComposer-columnItem:hover {
+    background: #AAA;
+}
+
+.colorComposer-columnList .colorComposer-columnItem:active {
+    background: #888;
+}
+
+.colorComposer-columnItem.selected {
+    border-left: 4px solid slategray;
+    position: relative;
+}
+
+.colorComposer-columnItem.selected:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0; top: 0;
+    border-color: transparent #EEE;
+	border-style: solid;
+	border-width: 30px 30px 30px 0px;
+	height: 0px;
+	width: 0px;
+}
+
+#colorCompoer-settingsFooter {
+    background: #CECECE;
+    width: 100%;
+}
+
+/* Donations and Social */
+#fbicon {
+    background: #3c5a99;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 32px;
+    border-radius: 50%;
+    width: 64px; height: 64px;
+    display: inline-block;
+}
+
+#fbicon:hover {
+    background: #fff;
+    color: #3c5a99;
+}
+
+#paypalDonation {
+    background-color: #0070ba;
+    border: .0625rem solid #0070ba;
+    color: #fff;
+    padding: 0.6em;
+    border-radius: 1.5rem;
+    transition: color 240ms ease,background-color 240ms ease,border-color 240ms ease,box-shadow 240ms ease;
+    cursor: pointer;
+    margin: 3px 2px;
+}
+
+#paypalDonation:hover {
+    background-color: #005085;
+    border: .0625rem solid #005085;
+}

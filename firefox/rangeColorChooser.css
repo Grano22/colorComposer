@@ -1,0 +1,49 @@
+/* Styles for rangeColorChooser */
+
+input[type=range]#red {
+	background-image: linear-gradient(to right, #000000, #ff0000);
+}
+
+input[type=range]#green {
+	background-image: linear-gradient(to right, #000000, #00ff00);
+}
+
+input[type=range]#blue {
+	background-image: linear-gradient(to right, #000000, #0000ff);
+}
+
+input[type=range].flat {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 15px;
+	opacity: .7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	background: #d3d3d3;
+}
+
+input[type=range].flat:hover, input[type=range].flat:focus {
+	opacity: 1;
+}
+
+input[type=range].flat::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 15px;
+	width: 5px;
+	background: slategray;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+input[type=range].flat::-webkit-slider-thumb:hover, input[type=range].flat::-webkit-slider-thumb:focus {
+	opacity: 1;
+}
+
+/*input[type=range].flat::-moz-range-thumb {
+	height: 15px;
+	width: 5px;
+	background: slategray;
+	cursor: pointer;
+}*/
+

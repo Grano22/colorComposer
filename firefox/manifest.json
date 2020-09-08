@@ -1,0 +1,69 @@
+{
+	"name": "Color Composer",
+	"applications": {
+		"gecko": {
+		  "id": "cardosstudios@totexshop.com",
+		  "strict_min_version": "42.0"
+		}
+	},
+    "version": "0.2",
+    "description": "__MSG_extDes__",
+	"default_locale": "en",
+	"author":"Cardos Studios",
+	"icons": {
+      "16": "images/colorComposer16.png",
+      "32": "images/colorComposer32.png",
+      "48": "images/colorComposer48.png",
+      "128": "images/colorComposer128.png"
+    },
+	"permissions": [
+		"storage",
+		"*://*/*",
+		"<all_urls>",
+		"tabs",
+		"activeTab",
+		"webRequest",
+		"downloads"
+	],
+	"options_ui": {
+		"page": "colorComposerSettings.html"
+	},
+	"background": {
+	  "page": "colorComposerBck.html",
+      "persistent": true
+    },
+	"page_action": {
+      "default_popup": "popup.html",
+	  "default_title": "Color Composer",
+      "default_icon": {
+		"16": "images/colorComposer16.png",
+		"32": "images/colorComposer32.png",
+		"48": "images/colorComposer48.png",
+		"128": "images/colorComposer128.png"
+	  },
+	  "browser_style": false
+	},
+	"browser_action": {
+		"default_title": "Color Composer",
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "images/colorComposer16.png",
+			"32": "images/colorComposer32.png",
+			"48": "images/colorComposer48.png",
+			"128": "images/colorComposer128.png"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>","http://*/*","https://*/*"],
+			"js": [],
+			"run_at": "document_idle",
+			"all_frames": false
+		}
+	],
+	"web_accessible_resources": [
+		"pallete/standard/*.json",
+		"pallete/saved/*.json"
+	],
+    "manifest_version": 2
+}
